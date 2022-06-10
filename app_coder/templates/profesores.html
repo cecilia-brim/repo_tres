@@ -1,0 +1,72 @@
+{% extends "padre.html" %}
+
+{% load static %}
+
+{% block contenido %}
+
+
+<main>
+    <ol>
+        <li>JEFE DE CATEDRA</li>
+        <li>JEFE DE TRABAJOS PRACTICOS</li>
+        <li>PROFESOR ADJUNTO</li>
+        <li>AYUDANTE DE CATEDRA</li>
+        
+    <div class="container">
+      <div class="row">
+
+         <div class="col-12 col-md-6">
+          <div class="card" style="width: 18rem;">
+            <img src="{% static 'app_coder/assets/img/testimonials-1.jpg'%}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Carolina Fernandez</h5>
+              <p class="card-text">Jefa de catedra de Operaciones 1</p>
+              <a href="#" class="btn btn-primary">Comunicarme</a>
+            </div>
+          </div>
+         </div>
+
+         <div class="col-12 col-md-6">
+          <div class="card" style="width: 18rem;">
+            <img src="{% static 'app_coder/assets/img/testimonials-3.jpg'%}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sofia Lozano</h5>
+              <p class="card-text">Jefa de trabajos practicos de Higiene y seguridad</p>
+              <a href="#" class="btn btn-primary">Comunicarme</a>
+            </div>
+         </div>
+         </div>
+        <div class="col-12 col-md-6">
+          <div class="card" style="width: 18rem;">
+            <img src="{% static 'app_coder/assets/img/testimonials-2.jpg'%}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sergio Gimenez</h5>
+              <p class="card-text">Ayudante de catedra de Reactores 1</p>
+              <a href="#" class="btn btn-primary">Comunicarme</a>
+            </div>
+
+
+
+
+          </div>
+
+        </div>
+
+
+
+      </div>
+
+
+
+    </div>
+
+
+
+  </ol>
+   
+
+
+</main>
+
+
+{% endblock %}
